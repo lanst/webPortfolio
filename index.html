@@ -8,15 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <style type="text/css">
-        #bg{
+        body{
             background-image: url("Images\\background.jpg");
-			min-height: 100%;
-			min-width: 1024;
-			width: 100%;
-			height: auto;
-			position: fixed;
-			top: 0;
-			left: 0;
+			min-height: auto;
+			min-width:  auto;
+			background-position: center;
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			background-size: cover;
         }
 
         #banner {
@@ -37,7 +36,11 @@
         }
 
         .menuBox {
-            background-color:#151BBF;
+            background: #151BBF; /* For browsers that do not support gradients */
+			background: -webkit-linear-gradient(135deg, white, #151BBF, #0B2385); /* For Safari 5.1 to 6.0 */
+			background: -o-linear-gradient(135deg, white, #151BBF, #0B2385); /* For Opera 11.1 to 12.0 */
+			background: -moz-linear-gradient(135deg, white, #151BBF, #0B2385); /* For Firefox 3.6 to 15 */
+			background: linear-gradient(135deg, white, #151BBF, #0B2385); /* Standard syntax */
             width: 150px;
             height: 48px;
             border: 2px solid white;
@@ -57,23 +60,25 @@
         }
 		
 		#homeContent {
-			width: 1000px;
-			height: 10000px;
+			background: #151BBF; /* For browsers that do not support gradients */
+			background: -webkit-linear-gradient(135deg, white, #151BBF, #0B2385); /* For Safari 5.1 to 6.0 */
+			background: -o-linear-gradient(135deg, white, #151BBF, #0B2385); /* For Opera 11.1 to 12.0 */
+			background: -moz-linear-gradient(135deg, white, #151BBF, #0B2385); /* For Firefox 3.6 to 15 */
+			background: linear-gradient(135deg, white, #151BBF, #0B2385); /* Standard syntax */
 			float: left;
 		}
 		
 		.welcome {
 			font-size: 50px;
-			color: white;
+			color: black;
             font-weight: bold;
 			text-align: center;
-			margin: 10px 0 0 0;
+			margin: 10px 0 10px 0;
 		}
     </style>
 
 </head>
 <body>
-	<div id="bg">
     <div class="fixedWidth">
         
         <div id="banner"></div>
@@ -86,8 +91,8 @@
             <p class="menuAbout">About</p>
         </div>
 		
-		<div id="homeContent">
-			<p class="welcome">Welcome to Norlan's Portfolio</p>
+		<div id="homeContent" class="fixedWidth">
+			<p class="welcome">Welcome<br>to<br>Norlan's Portfolio</p>
 		</div>
     </div>
 	</div>
