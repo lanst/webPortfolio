@@ -1,0 +1,89 @@
+body{
+	background-image: url("..\\Images\\background.jpg");
+	min-height: auto;
+	min-width:  auto;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#banner {
+    background-image: url("..\\Images\\topBanner.jpg");
+    width:1000px;
+    height: 135px;
+}
+
+.fixedWidth{
+    width:1000px;
+    margin:0 auto;
+}
+
+.whiteBox{
+    background-color:white;
+    width:1000px;
+    height:50px;
+}
+
+.menuBox {
+    background: #151BBF; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(135deg, white, #151BBF, #0B2385); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(135deg, white, #151BBF, #0B2385); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(135deg, white, #151BBF, #0B2385); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(135deg, white, #151BBF, #0B2385); /* Standard syntax */
+    width: 150px;
+    height: 48px;
+    border: 2px solid white;
+    float:left;
+}
+		
+.menuHome{
+    font-size:25px;
+    margin: 10px 0 0 35Px;
+    font-weight:bold;
+}
+
+.menuAbout {
+    font-size: 25px;
+	margin:9px 0 0 40px;
+    font-weight: bold;
+	color:black;
+	text-decoration:none;
+	cursor: pointer;
+	display: inline-block;
+}
+		
+#homeContent {
+	background: #151BBF; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(135deg, white, #151BBF, #0B2385); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(135deg, white, #151BBF, #0B2385); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(135deg, white, #151BBF, #0B2385); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(135deg, white, #151BBF, #0B2385); /* Standard syntax */
+	float: left;
+	height: 450px;
+	position: relative;
+	opacity:0.5;
+}
+		
+.welcome {
+	font-size: 50px;
+	color: black;
+    font-weight: bold;
+	text-align: center;
+	margin: 10px 0 10px 0;
+	position: absolute;
+	text-align: center;
+	width: 1000px;
+	margin-top: 250px;
+}
+		
+#photo {
+    background-image: url("..\\Images\\photo.png");
+    background-size: 95px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width:1000px;
+    height: 100px;
+	position: absolute;
+	margin: 100px 0 0 0;
+}
