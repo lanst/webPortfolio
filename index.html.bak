@@ -1,0 +1,44 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title>Norlan'sPortfolio</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <!--meta name="viewport" content="width=device-width, initial-scale=0.25" /-->
+	
+	<link type="text/css" rel="stylesheet" href="css\stylesheet.css"/>
+
+</head>
+<body>
+    <div class="fixedWidth">
+        
+        <div class="banner"></div>
+        
+        <div class="activeMenuBox">
+			<a href="index.html" class="menuHome">Home</a>
+		</div>
+
+        <div class="menuBox">
+			<a href="pages/about.html" class="menuAbout">About</a>
+        </div>
+		
+		<div class="menuBox">
+			<a href="pages/skills.html" class="menuAbout">Skills</a>
+        </div>
+		
+		<div class="menuBox">
+			<a href="pages/projects.html" class="menuProjects">Projects</a>
+        </div>
+		
+		<div id="homeContent" class="fixedWidth">
+		</div>
+		<div id="photo"></div>
+		<div class="welcome">
+		Norlan Prudente<br>
+		Computer Science Student<br>
+		Welcome to My Portfolio
+		</div>
+    </div>
+</body>
+</html>
