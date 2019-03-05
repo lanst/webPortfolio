@@ -61,7 +61,7 @@ body{
     border: 2px solid white;
     float:left;
 }
-		
+
 .menuHome{
     font-size:25px;
     margin: 9px 0 0 40Px;
@@ -91,7 +91,7 @@ body{
 	cursor: pointer;
 	display: inline-block;
 }
-	
+
 #homeContent {
 	background: #151BBF; /* For browsers that do not support gradients */
 	background: -webkit-linear-gradient(135deg, white, #151BBF, #0B2385); /* For Safari 5.1 to 6.0 */
@@ -122,7 +122,7 @@ body{
 	width: 1000px;
 	margin-top: 250px;
 }
-		
+
 #photo {
     background-image: url("..\\Images\\photo.png");
     background-size: 95px;
@@ -147,4 +147,11 @@ body{
 	margin-top: 200px;
 	text-align: center;
 	font-size: 60px;
+}
+
+#webDev {
+	background-color: white;
+}
+.siteTitle {
+	text-align: left;
 }
